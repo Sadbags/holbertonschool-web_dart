@@ -1,4 +1,4 @@
 void main() {
-  double number = 3.14159265359;
-  print('Double: ${number.toStringAsFixed(2)}');
+  var n = 3.14;
+    print('Double: $n\n');
 }
