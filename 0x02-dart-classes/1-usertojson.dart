@@ -1,6 +1,6 @@
 Class User() {
   String name;
-  age age;
+  int age;
   double height;
 
   User({required this.name, required this.age, required this.height});
