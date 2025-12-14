@@ -7,7 +7,5 @@ int sub(int a, int b) {
 }
 
 String showFunc(int a, int b) {
-  int sum = add(a, b);
-  int difference = sub(a, b);
-  return "Sum: $sum, Difference: $difference";
+  return "Add $a + $b = ${add(a, b)}\nSub $a - $b = ${sub(a, b)}";
 }
