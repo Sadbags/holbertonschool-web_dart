@@ -1,7 +1,7 @@
 Class User() {
-  String name;
+  String? name;
 
    void showName() {
-    print("Hello $name");
+    return "Hello $name";
    }
 }
