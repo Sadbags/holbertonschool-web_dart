@@ -1,4 +1,4 @@
-Class User() {
+class User {
   String name;
   int age;
   double height;
@@ -7,9 +7,9 @@ Class User() {
 
   Map<String, dynamic> toJson() {
     return {
-      'name': name,
-      'age': age,
-      'height': height,
+      "name": name,
+      "age": age,
+      "height": height
     };
   }
 }
